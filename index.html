@@ -30,22 +30,22 @@
         </style>
         <title>Калькулятор калорий</title>
     </head>
-    <body bgcolor="#C0C0C0">
+    <body bgcolor="#009E8E">
         <font face="Comic Sans MS">
         <center>
-            <h2 style="color:purple;">Узнай сколько калорий ты тратишь пока бездействуешь и когда ходишь!</h2>
+            <h2 style="color:#FF6C00;">Узнай сколько калорий ты тратишь пока бездействуешь и когда ходишь!</h2>
             <br>
         </center>
         <form oninput="out.value=(parseFloat(a.value)*parseFloat(h.value))">
-            <p>Ваш вес: <input type="text" name="a" size="6" value="0"> кг</p>
-            <p>Время бездействия:	<input type="text" name="h" size="6" value="0"> час</p>
-            <p>Траты калорий: <output name="out" for="a h">0</output> ккал</p>
+            <p>Ваш вес: <input type="text" name="a" color="#FF6C00" size="6" value="0"> кг</p>
+            <p>Время бездействия:	<input type="text" color="#FF6C00" name="h" size="6" value="0"> час</p>
+            <p>Траты калорий: <output name="out" color="#FF6C00" for="a h">0</output> ккал</p>
         </form>
         <br>
         <form oninput="out.value=(parseFloat(a.value)*parseFloat(h.value))*0.5/1000">
-            <p>Ваш вес: <input type="text" name="a" size="6" value="0"> кг</p>
-            <p>Количество шагов:	<input type="text" name="h" size="6" value="0"></p>
-            <p>Траты калорий: <output name="out" for="a h">0</output> ккал</p>
+            <p>Ваш вес: <input type="text" name="a" size="6" color="#FF6C00" value="0"> кг</p>
+            <p>Количество шагов:	<input type="text" name="h" color="#FF6C00" size="6" value="0"></p>
+            <p>Траты калорий: <output name="out" color="#FF6C00" for="a h">0</output> ккал</p>
         </form>
         <center>
             <button onclick="window.open('https://www.donationalerts.com/r/kostya12343134')">Поддержать автора❤️</button>
